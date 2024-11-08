@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T20:36:54 IST" name="Suite" finished-at="2023-08-01T20:39:15 IST" duration-ms="141581">
+    <groups>
+      <group name="regression">
+        <method signature="FlipkartLazyLoadingTest.testFlipkartHomepageLoadTime()[pri:1, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testFlipkartHomepageLoadTime" class="tests.FlipkartLazyLoadingTest"/>
+        <method signature="FlipkartLazyLoadingTest.testSearchProductInMobileCategory()[pri:2, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testSearchProductInMobileCategory" class="tests.FlipkartLazyLoadingTest"/>
+        <method signature="FlipkartLazyLoadingTest.testImageLoadingAndVisibility()[pri:3, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testImageLoadingAndVisibility" class="tests.FlipkartLazyLoadingTest"/>
+        <method signature="FlipkartLazyLoadingTest.testScrollFeatureAndContentRefresh()[pri:4, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testScrollFeatureAndContentRefresh" class="tests.FlipkartLazyLoadingTest"/>
+        <method signature="FlipkartLazyLoadingTest.testLazyLoading()[pri:5, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testLazyLoading" class="tests.FlipkartLazyLoadingTest"/>
+        <method signature="FlipkartLazyLoadingTest.testNavigationToBottom()[pri:6, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testNavigationToBottom" class="tests.FlipkartLazyLoadingTest"/>
+        <method signature="FlipkartLazyLoadingTest.testCrossBrowserAndScreenResolution()[pri:7, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" name="testCrossBrowserAndScreenResolution" class="tests.FlipkartLazyLoadingTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-08-01T20:36:54 IST" name="Test" finished-at="2023-08-01T20:39:15 IST" duration-ms="141581">
+      <class name="tests.FlipkartLazyLoadingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:36:54 IST" name="setup" finished-at="2023-08-01T20:37:00 IST" duration-ms="6443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlipkartHomepageLoadTime()[pri:1, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:37:00 IST" name="testFlipkartHomepageLoadTime" description="Verify the flipkart hoomepage load time" finished-at="2023-08-01T20:37:06 IST" duration-ms="5378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkartHomepageLoadTime -->
+        <test-method signature="testSearchProductInMobileCategory()[pri:2, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:37:06 IST" name="testSearchProductInMobileCategory" description="Verify the functionality of search product in mobile category" finished-at="2023-08-01T20:37:17 IST" duration-ms="11205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProductInMobileCategory -->
+        <test-method signature="testImageLoadingAndVisibility()[pri:3, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:37:17 IST" name="testImageLoadingAndVisibility" description="Verify the functionality of image loading and visibility" finished-at="2023-08-01T20:39:13 IST" duration-ms="115838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImageLoadingAndVisibility -->
+        <test-method signature="testScrollFeatureAndContentRefresh()[pri:4, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:39:13 IST" name="testScrollFeatureAndContentRefresh" description="Verify the flipkart hoomepage load time" finished-at="2023-08-01T20:39:13 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollFeatureAndContentRefresh -->
+        <test-method signature="testLazyLoading()[pri:5, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:39:13 IST" name="testLazyLoading" description="Verify the lazy loading functionality" finished-at="2023-08-01T20:39:13 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLazyLoading -->
+        <test-method signature="testNavigationToBottom()[pri:6, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:39:13 IST" name="testNavigationToBottom" description="Verify the funcitonality of navigating to bottom" finished-at="2023-08-01T20:39:13 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToBottom -->
+        <test-method signature="testCrossBrowserAndScreenResolution()[pri:7, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:39:13 IST" name="testCrossBrowserAndScreenResolution" description="Verify the functionality of cross browser and screen resolution" finished-at="2023-08-01T20:39:15 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCrossBrowserAndScreenResolution -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartLazyLoadingTest@2cd76f31]" started-at="2023-08-01T20:39:15 IST" name="tearDown" finished-at="2023-08-01T20:39:15 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlipkartLazyLoadingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
